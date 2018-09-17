@@ -1,0 +1,424 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.success {
+    color: #4caf50;
+}
+
+.error {
+    color: #ff5722;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+    .header h1 {
+        font-size: 250%;
+        color: #03a9f4;
+    }
+
+.loginForm {
+    margin-top: 70px;
+}
+
+.designFieldset {
+    width: 30%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+    .designFieldset legend {
+        font-size: 110%;
+        text-align: center;
+    }
+
+    .designFieldset input[type=email], fieldset input[type=password], fieldset input[type=text] {
+        font-size: 115%;
+        padding: 3px;
+        /*background-color: #ececec;*/
+        display: inline-block;
+        border: none;
+        border-bottom: 1px solid #cec7c7;
+        margin-bottom: 15px;
+    }
+
+    .designFieldset input[type=submit] {
+        margin-top: 15px;
+        /*width: 100px;
+        height: 24px;
+        vertical-align: top;
+        background-color: #4CAF50;
+        border-color: #4caf50;
+        border-radius: 5px;
+        color: white;
+        font-size: 105%;*/
+    }
+
+.createEventFieldSet {
+    width: 27%;
+    margin: auto;
+    padding: 5px;
+    text-align: left;
+    border-radius: 5px;
+    padding-left: 120px;
+}
+
+    .createEventFieldSet legend {
+        font-size: 110%;
+        text-align: center;
+    }
+
+    .createEventFieldSet label {
+        display: inline-block;
+        width: 100px;
+        margin-bottom: 10px;
+        vertical-align: top;
+    }
+
+    .createEventFieldSet input[type=submit] {
+        margin-top: 15px;
+        margin-left: 21%;
+        display: inline-block;
+        cursor:pointer;
+    
+    }
+
+    .createEventFieldSet textarea {
+        width: 180px;
+        height: 60px;
+    }
+
+    .createEventFieldSet #errorMsg {
+        display: inline-block;
+        margin-left: 15%;
+    }
+
+    .btn {
+        cursor:pointer;
+        vertical-align: baseline;
+    zoom: 1;
+    color: #fff;
+    background-color: #00a8f2;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    vertical-align: middle;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: 0;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    }
+
+.events {
+    width: 80%;
+    margin: auto;
+    text-align:center;
+}
+
+.eventBox {
+    /*border: 1px solid black;*/
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align:left;
+}
+
+    .eventBox span:first-child {
+        font-size: 110%;
+        font-weight: bold;
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .eventBox img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .eventBox a {
+        color: #1462af;
+        text-decoration: none;
+    }
+
+.specificEvent div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation ul {
+    padding-right: 5%;
+    /*width: 95%;
+	border-bottom: 1px solid #cec7c7;
+	padding-top: 8px;
+	padding-bottom: 8px;*/
+}
+
+    .navigation ul li {
+        vertical-align:top;
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 65px;
+    }
+
+    .navigation ul .pullright {
+        float:right;
+    }
+
+        .navigation ul li a {
+            color: #00bcd4;
+            text-decoration: none;
+            font-size: 130%;
+        }
+
+            .navigation ul li a:hover {
+                /*color: black;
+    text-decoration: underline;*/
+            }
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    /*border-top: 1px solid #cec7c7;*/
+    margin-top: 5px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+    .footer ul {
+        width: 100%;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 1px;
+    }
+
+        .footer ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 65px;
+        }
+
+            .footer ul li a {
+                color: #61686f;
+                text-decoration: none;
+                font-size: 145%;
+            }
+
+                .footer ul li a:hover {
+                    color: black;
+                    text-decoration: underline;
+                }
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+    table th {
+        text-align: left;
+    }
+
+    table caption {
+        font-size: 150%;
+        font-weight: bold;
+    }
+
+    table td, table th {
+        border: 1px solid #61686f;
+        padding: 3px;
+    }
+
+    table img {
+        display: block;
+        width: 200px;
+        height: 200px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+.searchBar {
+    width: 100%;
+    margin: 15px 0px;
+    /*border-bottom: 1px solid #cec7c7;*/
+    font-size: 125%;
+}
+
+    .searchBar span {
+        display: inline-block;
+        margin-left: 4%;
+    }
+
+    .searchBar input[type=search] {
+        display: inline-block;
+        margin-left: 4%;
+    }
+
+.text-center {
+    text-align: center;
+}
+
+.specificEvent {
+    width: 55%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+    .specificEvent .cover, .specificEvent .details {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .specificEvent .cover {
+        margin-right: 5%;
+    }
+
+        .specificEvent .cover img {
+            width: 400px;
+            height: 400px;
+        }
+
+    .specificEvent .details .heading {
+        width: 130px;
+    }
+
+    .specificEvent .details .heading, .specificEvent .details .value {
+        vertical-align: top;
+        font-size: 150%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+.login {
+    /*width: 70%;*/
+    /*margin: auto;*/
+    /*border-bottom: 1px solid #cec7c7;*/
+    /*padding-left: 30%;
+    padding-top: 8px;*/
+    /*padding-bottom: 7px;*/
+}
+
+    .login input[type=email], .login input[type=password] {
+        /*font-size:115%;*/
+        /*background-color:#ececec;*/
+        /*padding:3px;
+        display: inline-block;
+        border-radius: 5px;*/
+    }
+
+
+    .login input[type=submit] {
+            line-height: 34%;
+    vertical-align: initial;
+    background-color: #24ce39;
+        /*width: 100px;
+        height: 24px;
+        vertical-align: top;
+        background-color: #4CAF50;
+        border-color: #4caf50;
+        border-radius: 5px;
+        color: white;
+        font-size: 105%;*/
+    }
+    .inp {
+        -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    vertical-align: top;
+     padding: 0px 10px;
+
+    border: 1px #D2D6DF solid;
+    background: #fff;
+    color: #45494E;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    }
+.aboutUs {
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    font-size: 125%;
+}
+
+.contactUs {
+    width: 400px;
+    margin: auto;
+}
+
+    .contactUs .heading {
+        width: 130px;
+    }
+
+    .contactUs .heading, .contactUs .value {
+        font-size: 150%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+.pagination {
+    /*width: 100%;*/
+    text-align: center;
+    padding-top: 5px;
+}
+
+    .pagination a {
+        color: #06c;
+    }
+
+#btnAttend {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    background-color: #6a78bb;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.normalLink {
+        color: #06c;
+    text-decoration: none;
+}
+
+
+.slider {
+        width: 100%;
+    height: 200px;
+    margin-top: 5px;
+}
+#sliderImage {
+    width: 50%;
+    margin-left: 25%;
+    height: 200px;
+}
